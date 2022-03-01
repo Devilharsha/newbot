@@ -96,7 +96,7 @@ buttons = [
     [
         InlineKeyboardButton(
                             text="☑️ SUBMIT Nakiri Ayame ☑️",
-                            url="t.me/ZeusXRobot?startgroup=true"),
+                            url="t.me/Nakiri_Ayame_PROBOT?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(text="💓DEVLOPER", url="https://t.me/harshahero"),
