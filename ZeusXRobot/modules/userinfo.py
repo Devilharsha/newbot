@@ -429,8 +429,8 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update, context):
     uptime = datetime.datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
     botuptime = get_readable_time((time.time() - StartTime))
-    status = "*╒═══「 📊 Zeus Stats 」*\n\n"
-    status += "*➢ Zeus Start time:* " + str(uptime) + "\n"
+    status = "*╒═══「 📊 Nakiri Ayame Stats 」*\n\n"
+    status += "*➢ Nakiri Ayame Start time:* " + str(uptime) + "\n"
     uname = platform.uname()
     status += "*➢ System:* " + str(uname.system) + "\n"
     status += "*➢ Node name:* " + escape_markdown(str(uname.node)) + "\n"
@@ -450,8 +450,8 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT})  | [✦ Updates](https://t.me/ZeusUpdates)\n\n"
-            + "╘══「 by [⚡CT⚡](https://github.com/ctzfamily) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT})  | [✦ Updates](https://t.me/THE_BLAZE_NETWORK)\n\n"
+            + "╘══「 by [⚡harsha⚡](https://t.me/harshahero) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -465,7 +465,7 @@ def stats(update, context):
                     )
                     + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/ZeusUpdates)\n\n"
                 )
-                + "╘══「 by [⚡CT_PRO⚡](https://github.com/ctzfamily) 」\n"
+                + "╘══「 by [⚡harsha⚡](https://) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
