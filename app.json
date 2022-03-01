@@ -152,6 +152,11 @@
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
          "value": "CAACAgQAAx0CU_rCTAABAczQXyBOv1TsVK4EfwnkCUT1H0GCkPQAAtwAAwEgTQaYsMtAltpEwhoE"
+    },
+      "UPDATES_CHANNEL": 
+         "description": "updates of ur bot",
+         "required": false,
+         "value": "THE_BLAZE_NETWORK"
       }
       
    }
