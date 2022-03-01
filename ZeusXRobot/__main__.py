@@ -79,37 +79,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──『[GOD OF THUNDER](https://telegra.ph/file/4c33a90f7df190fd81763.jpg)』──
+──『[Nakiri Ayame](https://telegra.ph/file/64ed963b43fac8dc8717e.jpg)』──
 
 *Hello User!!*
-𝐇𝐞𝐲 𝐈'𝐦 [๖ۣۜZΞUS༻](https://en.m.wikipedia.org/wiki/Zeus),👋
+𝐇𝐞𝐲 𝐈'𝐦 [Nakiri Ayame](https://en.m.wikipedia.org/wiki/NakiriAyame),👋
 𝐈 𝐀𝐦 𝐀 𝐆𝐫𝐞𝐞𝐤 𝐌𝐲𝐭𝐡𝐨𝐥𝐨𝐠𝐲 𝐆𝐨𝐝 
 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 𝐓𝐡𝐮𝐧𝐝𝐞𝐫...
 
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』"""
 STICKERS = (
-      "CAACAgUAAx0CRiLf0wACvWBhmnKjHrrDcVgz6Ssk5wvA05NLDQACbgIAAv_H2FQTHfy_9X7rfSIE", #1
-      "CAACAgUAAx0CRiLf0wACvWZhmnOJLucdVwga5fnQJ0i7tD6nIgACsAQAAq042VQYQWM0cthfbyIE", #2
+      "CAACAgUAAxkBAAIQK2Idzxjl9WaUCO8SDnF-UzWr3kXoAAIdAgACx6WZVhXJ8Y7WdjnMIwQ", #1
+      "CAACAgUAAxkBAAIQKmIdzxPeMcwaYnBmCAmcOvgAAeandgACpAMAAm2WkVYfSBacg3ov7SME", #2
 )
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑️ SUBMIT GOD ZEUS ☑️",
+                            text="☑️ SUBMIT Nakiri Ayame ☑️",
                             url="t.me/ZeusXRobot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="💓Source", url="https://github.com/Ctzfamily/ZeusXRobot"),
-                       InlineKeyboardButton(text="📊 Network", url="https://t.me/PegasusBots"),
-                       InlineKeyboardButton(text="🔔 Logs", url="https://t.me/ZeusXRobotlogs"),
+                       InlineKeyboardButton(text="💓DEVLOPER", url="https://t.me/harshahero"),
+                       InlineKeyboardButton(text="Doraemon 💖", url="https://t.me/super_doraemon_Robot"),
+                       InlineKeyboardButton(text="🚑 support", url="https://t.me/BLAZE_SUPPORT"),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="👫 Freedom",
-                             url=f"https://t.me/UnitedSupport"),
+                             url=f"https://t.me/senkudevschat"),
                        InlineKeyboardButton(
-                             text="⚡ ZeusUpdates",
-                             url=f"https://t.me/Zeusupdates"),
+                             text="🌟Updates",
+                             url=f"https://t.me/THE_BLAZE_NETWORK"),
                      ],
                     [
                     InlineKeyboardButton(text="🔐 Open commads 🔐", callback_data="help_back"
@@ -133,8 +133,8 @@ List of all the Modules:
 )
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """t.me/unitedsupport"""
-HELP_IMG= "https://telegra.ph/file/5f296f959250d7cd88b09.jpg"
+DONATE_STRING = """t.me/harshahero"""
+HELP_IMG= "https://telegra.ph/file/4c10db058b937097200f7.jpg"
 
 
 IMPORTED = {}
@@ -424,7 +424,7 @@ def zeus_data_callback(update, context):
                     InlineKeyboardButton(text="🔄 Go Inline 🔄", switch_inline_query_current_chat=""),
                  ],
                   [
-                    InlineKeyboardButton(text="📢 Updates", url="t.me/PegasusUpdates"),
+                    InlineKeyboardButton(text="📢 Updates", url="https://t.me/THE_BLAZE_NETWORK"),
                  ],
                  [
                     InlineKeyboardButton(text="⬅ Back", callback_data="zeus_back"),
@@ -712,7 +712,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","*Zeus Is Ready ⚡*", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","* Nakiri Ayame Is Ready ⚡*", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
